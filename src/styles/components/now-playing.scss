@@ -11,7 +11,7 @@
   flex-flow: column nowrap;
   padding: var(--spacing-l);
   width: 100%;
-  height: auto;
+  height: 100%;
 
   &__cover,
   &__details {
@@ -21,13 +21,13 @@
   }
 
   &__cover {
-    max-width: 70%; /* Set to 60% of the width of the parent */
+    max-width: 60%; /* Set to 60% of the width of the parent */
   }
 
   &__image {
    
     height: auto;
-    width: auto;
+    width: 100%;
   }
 
   &__details {
